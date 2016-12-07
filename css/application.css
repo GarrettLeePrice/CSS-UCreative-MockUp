@@ -1,3 +1,86 @@
+html {
+  box-sizing: border-box; }
 
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+body {
+  background-color: #ECECEC; }
+
+.main {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+  .main::after {
+    clear: both;
+    content: "";
+    display: block; }
+
+.section1 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%; }
+  .section1:last-child {
+    margin-right: 0; }
+
+.section2 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  background-color: blue; }
+  .section2:last-child {
+    margin-right: 0; }
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100%;
+  margin: 0; }
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none; }
+
+.item {
+  width: 100%; }
+
+.small {
+  font-size: 5px; }
+
+.active img {
+  width: auto;
+  height: 399px;
+  max-height: 399px; }
+
+#myCarousel {
+  margin-bottom: 5%; }
+
+#card1 {
+  border: 10px solid red;
+  background-color: white; }
+
+.photo {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .photo:last-child {
+    margin-right: 0; }
+  .photo img {
+    width: 100%;
+    padding: 5%; }
+
+.text {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%; }
+  .text:last-child {
+    margin-right: 0; }
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both; }
 
 /*# sourceMappingURL=application.css.map */
