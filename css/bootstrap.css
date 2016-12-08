@@ -2997,11 +2997,11 @@ select[multiple].input-lg {
 }
 .btn {
   display: inline-block;
-  padding: 6px 12px;
+  /*padding: 6px 12px;
   margin-bottom: 0;
   font-size: 14px;
   font-weight: normal;
-  line-height: 1.42857143;
+  line-height: 1.42857143;*/
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -3013,8 +3013,8 @@ select[multiple].input-lg {
       -ms-user-select: none;
           user-select: none;
   background-image: none;
-  border: 1px solid transparent;
-  border-radius: 4px;
+  /*border: 1px solid transparent;
+  border-radius: 4px;*/
 }
 .btn:focus,
 .btn:active:focus,

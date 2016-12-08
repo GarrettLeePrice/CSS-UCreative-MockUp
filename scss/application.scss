@@ -31,6 +31,26 @@ header {
   width: 100vw
 }
 
+.btn {
+  padding: 15px 100px;
+  border: 1px solid black;
+  background-color: #ececec;
+  border-radius: 5px;
+  font-size: 14pt;
+
+}
+
+.btn:hover {
+    background-color: #76baae;
+    transition-delay: 1s;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+  
+  }
+
 
 .main {
   @include outer-container();
@@ -81,6 +101,18 @@ header {
 #card1 {
   background-color: white;
   padding: 3% 2% 4% 2%;
+  border-bottom: 2px solid #ececec;
+
+}
+
+#card1:hover {
+  background-color: lightgrey;
+  transition-delay: 1s;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
 }
 
 .photo {
@@ -145,6 +177,18 @@ header {
     border-left: .25px solid #6E6E6E;
   }
 }
+
+.morePostsBtn {
+  text-align: center;
+  padding: 5%;
+}
+
+
+
+
+
+
+
 .clearfix::after {
 content: "";
 display: block;
