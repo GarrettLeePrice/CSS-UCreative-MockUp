@@ -26,6 +26,11 @@ hr {
   color: #6E6E6E;
 }
 
+header {
+  background-color: black;
+  width: 100vw
+}
+
 
 .main {
   @include outer-container();
@@ -123,6 +128,23 @@ hr {
   color: #6E6E6E;
 }
 
+.navbar-inverse {
+  background-color: black;
+}
+
+.nav {
+  border-radius: 0;
+
+}
+
+.navbar-nav {
+  float: right;
+  li {
+    font-size: 10pt;
+    color: white;
+    border-left: .25px solid #6E6E6E;
+  }
+}
 .clearfix::after {
 content: "";
 display: block;
