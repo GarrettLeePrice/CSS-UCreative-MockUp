@@ -6,7 +6,7 @@
 @import "neat/neat.scss";
 
 body {
-  background-color: #ECECEC;
+  background-color: #ececec;
 }
 
 ul {
@@ -17,6 +17,13 @@ li {
   list-style-type: none;
   float: left;
   padding-right: 3px;
+}
+
+hr {
+  width: 12%;
+  float: left;
+  margin-top: 0;
+  color: #6E6E6E;
 }
 
 
@@ -35,21 +42,10 @@ li {
   background-color: blue;
 }
 
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-  width: 100%;
-  margin: 0;
-}
-
-.carousel-control {
-  &.left, &.right {
-    background-image: none;
-  }
-}
-
 .social {
   display: inline-block;
 }
+
 
 .card-date, .card-time, .glyphicon {
   display: inline-block;;
@@ -68,8 +64,8 @@ li {
 }
 
 .active img {
-  width: auto;
- height: 399px;
+ width: 100%;
+ // height: auto;
  max-height: 399px;
 }
 
@@ -84,8 +80,11 @@ li {
 
 .photo {
   @include span-columns(4 of 12);
+  width: 31%;
+  // height: 50%;
     img {
         width: 100%;
+        height: 17.5em;
         padding: 5%;
     }
 
@@ -93,6 +92,35 @@ li {
 
 .text {
   @include span-columns(8 of 12);
+    h3 {
+      font-family: 'Titillium Web', sans-serif;
+      color: #292421;
+      line-height: 20pt;
+      font-weight: 600;
+      margin-top: 2%;
+  }
+    h4 {
+      color: #6E6E6E;
+      margin-bottom: 1%;
+      font-family: 'Karma', serif;
+      font-weight: 100;
+      font-size: 12pt;
+      line-height: 16pt;
+    }
+    h5 {
+      font-family: 'Ubuntu', sans-serif;
+      color: #6E6E6E;
+      font-weight: lighter;
+    }
+    h6 {
+      color: #6E6E6E;
+    }
+}
+
+
+.glyphicon {
+  font-size: 11.5pt;
+  color: #6E6E6E;
 }
 
 .clearfix::after {
